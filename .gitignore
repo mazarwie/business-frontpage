@@ -1,4 +1,20 @@
+# Jekyll build output
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# Bundler local config and installed gems
+.bundle/
+vendor/
+
+# Ruby dependency files (if you don’t want to commit them)
+Gemfile.lock
+
+# Node dependencies (if you ever add JS tooling)
+node_modules/
+
+# OS / editor junk
+*.log
+.DS_Store
+Thumbs.db
